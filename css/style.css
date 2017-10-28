@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #007991;
+	background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.login-canvas {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.33);
+  max-width: 360px;
+  margin: 0 auto 100px;
+  margin-top: 50px;
+  padding: 20px 20px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.login-canvas h2 {
+	color: white;
+	letter-spacing: 2px;
+	margin: 5px 0px -25px 0px;
+}
+.login-canvas h5 {
+	color: white;
+	letter-spacing: 6px;
+}
+.login-canvas input{
+	margin: 10px 0px;
+	padding: 10px 20px;
+	border: none;
+	color: #1f9ca3;
+	font-size: 15px;
+}
+.login-canvas input:focus{
+	outline: none;
+}
+.login-canvas .btn-login{
+	padding: 15px 87px;
+	background-color: #1f9ca3;
+	color: white;
+	font-family: Roboto-Bold;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+.login-canvas h4 {
+	color: #a31f1f;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+input::-webkit-input-placeholder {
+color: #1f9ca3 !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: #1f9ca3 !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #1f9ca3 !important;
+}
+
+input:-ms-input-placeholder {
+color: #1f9ca3 !important;
+}
+@media (max-width: 1612px) {} @media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
